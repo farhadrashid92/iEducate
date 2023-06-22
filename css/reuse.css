@@ -1,0 +1,29 @@
+.background {
+    background: rgba(0, 0, 0, 0.5) url(../img/bg.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+
+    /* Following is Bootstrap's img-fluid. */
+    /* max-width: 100%; */
+    /* display: block; */
+    /* height: auto; */
+
+}
+
+.change-order {
+    flex-direction: row-reverse;
+}
+
+.btn-transparent {
+    background: none;
+    border: 1px solid white;
+}
+
+.btn-transparent:hover {
+    background-color: #fa6400;
+}
+
+.btn-lg {
+    padding: 10px 15px;
+    font-size: 18px;
+}

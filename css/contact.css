@@ -1,0 +1,136 @@
+#contact {
+    height: 100%;
+}
+
+#contact h2 {
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 2.5rem;
+}
+
+body {
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 98%;
+    padding: 8px;
+    border: 1px solid #eeeeee;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    resize: vertical;
+    outline: none;
+}
+
+input[type=submit] {
+    /* background-color: #4cd9c6; */
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #fb8332;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    transform: translateY(-1px);
+}
+
+.container {
+    border-radius: 8px;
+    background-color: #e6e6e6;
+    padding: 15px;
+}
+
+label {
+    font-family: 'Open Sans' sans-serif;
+    color: black;
+    margin: 0;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.container {
+    display: block;
+    /* border: 4px solid #fa6400; */
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 0 0 15px 15px;
+    max-width: 800px;
+    background-color: #e6e6e6;
+}
+
+.title {
+    display: inline-block;
+}
+
+.title h2 {
+    padding: 0 10px 0 0px;
+    margin: 5px 0;
+    color: #FBFBFB;
+}
+
+form {
+    padding: 20px 10px;
+}
+
+hr {
+    width: 100%;
+    display: block;
+    margin: 5px 0;
+    border: 0;
+    /* background-color: #000000; */
+    height: 12px;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+input,
+textarea {
+    width: 98%;
+    border: 5px solid #FFFFFF;
+    border-radius: 3px;
+    resize: none;
+    padding: 0 5px;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: #000000;
+    outline: none;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+input[type="text"],
+input[type="email"] {
+    padding: 0 10px;
+    height: 40px;
+    width: 98%;
+}
+
+input[type=submit]:focus {
+    background-color: #fb8332;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+input[type="submit"] {
+    width: 98%;
+    height: 50px;
+    background-color: #fa6400;
+    border: 0;
+    color: #fff;
+    /* border: 5px solid #414178; */
+    border-radius: 8px;
+    margin: 10px 0 0 0;
+    font-size: 22px;
+    font-weight: 600;
+    transition: all 250ms;
+}

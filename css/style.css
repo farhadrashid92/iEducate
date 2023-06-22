@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Source+Sans+Pro&display=swap');
+
+/* if you want to use slide element then also use overflow-x: hidden; in body{} in css */
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+body {
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    /* box-shadow: 0 4px 2px -2px rgba(0, 0, 0, .2); */
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #030b15;
+}
+
+#logo {
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+#logo img {
+    width: 25%;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 1.375rem 1.563rem;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 250ms;
+}
+
+.nav-list a:hover {
+    color: #fa6400;
+}
+
+.rightNav {
+    display: flex;
+    align-items: center;
+}
+
+#search {
+    font-size: 16px;
+    outline: none;
+    margin: 0 12px;
+    padding: 0.438rem 0.625rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* First Section */
+.first-section {
+    height: 80vh;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+    height: 70vh;
+}
+
+.first-half {
+    width: 55%;
+}
+
+.text-big {
+    font-size: 2.5rem;
+}
+
+.text-small {
+    width: 80%;
+    padding: 20px 0;
+    font-size: 1.125rem;
+    line-height: 1.563rem;
+}
+
+.text-big,
+.text-small {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.buttons {
+    padding: 0.625rem 0;
+}
+
+.second-half {
+    width: 35%;
+}
+
+.second-half img {
+    width: 100%;
+}
+
+/* Second Section */
+.second-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    margin: auto;
+    height: 550px;
+}
+
+.paras {
+    padding: 2.5rem;
+}
+
+.first-para,
+.second-para {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.first-para {
+    font-size: 1.875rem;
+}
+
+.second-para {
+    font-size: 1.125rem;
+    line-height: 1.563rem;
+    padding: 1.25rem 0;
+    text-align: justify;
+}
+
+.thumbnail {
+    width: 45%;
+}
+
+.thumbnail img {
+    width: 40vw;
+    border-radius: 12px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.125rem;
+    background-color: black;
+}
+
+.footer-text {
+    color: white;
+    padding: 0.938rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.125rem;
+}
+
+
+/* Button CSS */
+.button-5 {
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #fa6400;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 2.25rem;
+    padding: 0 10px;
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+}
+
+.button-5:hover,
+.button-5:focus {
+    background-color: #fb8332;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+    transform: translateY(-1px);
+}
+
+.button-5:active {
+    background-color: #c85000;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+}
+
+
+/* Typewriter CSS */
+.cursor {
+    display: inline-block;
+    width: 3px;
+    margin-left: 4px;
+}
+
+.cursor.blink {
+    animation: blink 0.8s ease-in-out infinite;
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        background: rgb(236, 50, 55);
+    }
+
+    40%,
+    50% {
+        background: transparent;
+    }
+}
+
+.pure {
+    font-size: 1.875rem;
+    color: rgb(56, 56, 56);
+    font-weight: bolder;
+    width: 100%;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+}
+
+.typed-text {
+    color: #fa6400;
+}
+
+
+/* Typewriter2 CSS */
+.cursor2 {
+    display: inline-block;
+    width: 3px;
+    margin-left: 4px;
+}
+
+.cursor2.blink2 {
+    animation: blink2 0.8s ease-in-out infinite;
+}
+
+@keyframes blink2 {
+
+    0%,
+    100% {
+        background: rgb(236, 50, 55);
+    }
+
+    40%,
+    50% {
+        background: transparent;
+    }
+}
+
+.pure2 {
+    font-size: 1.875rem;
+    color: rgb(56, 56, 56);
+    font-weight: bolder;
+    width: 100%;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+}
+
+.typed-text2 {
+    color: #fa6400;
+}
+
+
+/* Typewriter2 CSS */
+.cursor3 {
+    display: inline-block;
+    width: 3px;
+    margin-left: 4px;
+}
+
+.cursor3.blink3 {
+    animation: blink2 0.8s ease-in-out infinite;
+}
+
+@keyframes blink3 {
+
+    0%,
+    100% {
+        background: rgb(236, 50, 55);
+    }
+
+    40%,
+    50% {
+        background: transparent;
+    }
+}
+
+.pure3 {
+    font-size: 1.875rem;
+    color: rgb(56, 56, 56);
+    font-weight: bolder;
+    width: 100%;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+}
+
+.typed-text3 {
+    color: #fa6400;
+}
+
+.mob-nav {
+    display: none;
+    padding: 0.5rem 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #030b15;
+}
+
+/* Hamburger */
+.line {
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 5px;
+}
+
+.burger-list {
+    position: fixed;
+    top: 55px;
+    left: 0;
+    width: 250px;
+    height: 115vh;
+    transform: translateX(-150%);
+    transition: all .3s ease-in-out;
+    background-color: #02070d;
+    background: rgba(0, 0, 0, 0.61);
+    backdrop-filter: blur(30px);
+    z-index: 1;
+}
+
+.burger-list li {
+    list-style: none;
+    padding: 1.375rem 1.875rem;
+}
+
+.burger-list a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.burger-list a:hover {
+    color: #fa6400;
+}
+
+.cross {
+    position: absolute;
+    top: -10px;
+    left: 220px;
+    color: white;
+    font-size: 36px;
+}
