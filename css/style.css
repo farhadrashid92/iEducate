@@ -129,7 +129,7 @@ html {
     align-items: center;
     max-width: 90%;
     margin: auto;
-    height: 550px;
+    height: 420px;
 }
 
 .paras {
@@ -157,7 +157,7 @@ html {
 }
 
 .thumbnail img {
-    width: 40vw;
+    width: 30vw;
     border-radius: 12px;
 }
 
